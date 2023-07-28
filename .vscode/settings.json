@@ -1,0 +1,17 @@
+{
+    "dotnet.defaultSolution": "Augments.sln",
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "file",
+    "editor.tabSize": 4,
+    "csharp.format.enable": true,
+    "html.format.wrapAttributes": "force-aligned",
+    "razor.format.enable": true,
+    "[html]": {
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true,
+    },
+    "[razor]": {
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true,
+    },
+}

@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Augment.BlazorCrumbs", "Augment.BlazorCrumbs\Augment.BlazorCrumbs.csproj", "{E14B8021-0359-4E00-8F02-350C70EC01C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Augment.Blueprints", "Augment.Blueprints\Augment.Blueprints.csproj", "{B83FD346-FF74-40FE-B7BB-070AD603CA0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Augment.DependencySidekick", "Augment.DependencySidekick\Augment.DependencySidekick.csproj", "{730DAA40-CD04-4B4C-9BD0-742D28AA3A68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Augment.MoqBuddy", "Augment.MoqBuddy\Augment.MoqBuddy.csproj", "{B705CF47-9211-47C0-A799-8216474F8D19}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E14B8021-0359-4E00-8F02-350C70EC01C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E14B8021-0359-4E00-8F02-350C70EC01C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E14B8021-0359-4E00-8F02-350C70EC01C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E14B8021-0359-4E00-8F02-350C70EC01C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B83FD346-FF74-40FE-B7BB-070AD603CA0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B83FD346-FF74-40FE-B7BB-070AD603CA0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B83FD346-FF74-40FE-B7BB-070AD603CA0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B83FD346-FF74-40FE-B7BB-070AD603CA0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{730DAA40-CD04-4B4C-9BD0-742D28AA3A68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{730DAA40-CD04-4B4C-9BD0-742D28AA3A68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{730DAA40-CD04-4B4C-9BD0-742D28AA3A68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{730DAA40-CD04-4B4C-9BD0-742D28AA3A68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B705CF47-9211-47C0-A799-8216474F8D19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B705CF47-9211-47C0-A799-8216474F8D19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B705CF47-9211-47C0-A799-8216474F8D19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B705CF47-9211-47C0-A799-8216474F8D19}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

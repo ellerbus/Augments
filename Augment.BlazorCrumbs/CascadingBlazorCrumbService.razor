@@ -1,0 +1,17 @@
+﻿<CascadingValue Value="@BlazorCrumbService">
+    @ChildContent
+</CascadingValue>
+
+@code {
+
+    protected override void OnParametersSet()
+    {
+        BlazorCrumbService ??= new BlazorCrumbService();
+    }
+
+    [Parameter]
+    public BlazorCrumbService BlazorCrumbService { get; set; } = null!;
+
+    [Parameter]
+    public RenderFragment ChildContent { get; set; } = null!;
+}

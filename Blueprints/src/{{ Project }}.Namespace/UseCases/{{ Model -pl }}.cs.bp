@@ -1,0 +1,13 @@
+namespace {{ Project }}.UseCases;
+
+class {{ Model -pl }}
+{
+    public {{ Model -pl }}()
+    {
+        //  abbreviation    {{ Model -a }}
+        //  pascal          {{ Model -p }}
+        //  camel           {{ Model -c }}
+        //  title           {{ Model -t }}
+        //  label           {{ Model -l }}
+    }
+}

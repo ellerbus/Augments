@@ -1,0 +1,33 @@
+﻿@if (BlazorCrumbs.Any())
+{
+    <div class="container-fluid">
+        <nav class="mt-1">
+            <ol class="breadcrumb border border-0">
+                @foreach (BreadCrumb breadCrumb in BlazorCrumbs)
+                {
+                    if (breadCrumb.Url is null)
+                    {
+                        <li class="breadcrumb-item active">
+                            @breadCrumb.Label
+                            @if (breadCrumb.Filter is not null)
+                            {
+                                <span class="text-muted">
+                                    <i class="fa fa-fw fa-filter"></i>
+                                    @breadCrumb.Filter
+                                </span>
+                            }
+                        </li>
+                    }
+                    else
+                    {
+                        <li class="breadcrumb-item">
+                            <NavLink href="@breadCrumb.Url">
+                                @breadCrumb.Label
+                            </NavLink>
+                        </li>
+                    }
+                }
+            </ol>
+        </nav>
+    </div>
+}
