@@ -4,6 +4,8 @@ public static class Runner
 {
     public static void RunWith(string[] args)
     {
+        Replacements.Default.Clear();
+
         Options options = new(args);
 
         Blueprint[] blueprints = GetBlueprints(options).ToArray();
